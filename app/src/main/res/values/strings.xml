@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">TaskFlow</string>
+    <string name="app_tagline">Elevate your daily productivity</string>
+
+    <!-- Authentication - Login -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to organize your flow and stay ahead</string>
+    <string name="login_identifier_hint">Username or Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_no_account_prompt">Don\'t have an account?</string>
+    <string name="login_register_link">Create Account</string>
+
+    <!-- Authentication - Register -->
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Start managing tasks with native local privacy</string>
+    <string name="register_username_hint">Username (at least 3 characters)</string>
+    <string name="register_email_hint">Email address</string>
+    <string name="register_password_hint">Password (at least 8 characters)</string>
+    <string name="register_confirm_password_hint">Confirm password</string>
+    <string name="register_button">Get Started</string>
+    <string name="register_have_account_prompt">Already have an account?</string>
+    <string name="register_login_link">Sign In</string>
+
+    <!-- Validation & Auth Errors -->
+    <string name="error_required_field">This field cannot be empty</string>
+    <string name="error_invalid_username">Username must be at least 3 characters</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_short_password">Password must be at least 8 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_auth_failed">Invalid username/email or password</string>
+    <string name="error_username_taken">Username is already taken</string>
+    <string name="error_email_taken">An account with this email already exists</string>
+    <string name="registration_success">Account created successfully! Please sign in.</string>
+
+    <!-- Dashboard -->
+    <string name="greeting_format">Hello, %1$s</string>
+    <string name="greeting_subtitle">Here is your progress overview today</string>
+    <string name="stat_active_label">Pending</string>
+    <string name="stat_completed_label">Completed</string>
+    <string name="stat_total_label">Total</string>
+    <string name="progress_overview_title">Overall Completion</string>
+    <string name="progress_percentage_format">%1$d%%</string>
+    <string name="tasks_ratio_format">%1$d of %2$d tasks done</string>
+    <string name="tasks_header_title">My Tasks</string>
+
+    <!-- Filters -->
+    <string name="filter_all">All</string>
+    <string name="filter_active">Active</string>
+    <string name="filter_completed">Completed</string>
+
+    <!-- Task Editor / Form -->
+    <string name="dialog_add_task_title">New Task</string>
+    <string name="dialog_edit_task_title">Edit Task</string>
+    <string name="task_title_hint">What needs to be done?</string>
+    <string name="task_desc_hint">Add details or notes (optional)</string>
+    <string name="task_priority_label">Priority</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+    <string name="task_due_date_label">Due Date</string>
+    <string name="select_due_date">Select date</string>
+    <string name="no_due_date">No due date</string>
+    <string name="action_save_task">Save Task</string>
+    <string name="action_delete_task">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="error_empty_title">Please enter a task title</string>
+    <string name="task_saved_success">Task saved successfully</string>
+    <string name="task_deleted_success">Task deleted</string>
+
+    <!-- Empty States -->
+    <string name="empty_all_tasks_title">No tasks found</string>
+    <string name="empty_all_tasks_desc">You\'re all set! Tap the button below to add your first task.</string>
+    <string name="empty_active_tasks_title">All tasks completed!</string>
+    <string name="empty_active_tasks_desc">Great job! There are no pending tasks remaining.</string>
+    <string name="empty_completed_tasks_title">No completed tasks</string>
+    <string name="empty_completed_tasks_desc">Finish a task to track your completed achievements.</string>
+
+    <!-- Dialogs -->
+    <string name="logout_dialog_title">Log Out</string>
+    <string name="logout_dialog_message">Are you sure you want to log out of TaskFlow?</string>
+    <string name="action_confirm_logout">Log Out</string>
+    <string name="delete_dialog_title">Delete Task</string>
+    <string name="delete_dialog_message">Are you sure you want to permanently delete this task? This action cannot be undone.</string>
+    <string name="action_confirm_delete">Delete</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_app_logo">TaskFlow Logo</string>
+    <string name="cd_logout_button">Log out</string>
+    <string name="cd_add_task_button">Add new task</string>
+    <string name="cd_task_checkbox">Task completion status</string>
+    <string name="cd_edit_task">Edit task</string>
+    <string name="cd_delete_task">Delete task</string>
+    <string name="cd_clear_date">Clear due date</string>
+</resources>
